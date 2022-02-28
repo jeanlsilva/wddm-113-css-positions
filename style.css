@@ -38,22 +38,22 @@ img {
 
 @font-face {
     font-family: Strange Tales;
-    src: url(./Strange_Tales.ttf);
+    src: url(./assets/fonts/Strange_Tales.ttf);
 }
 
 @font-face {
     font-family: 'Dancing Script';
-    src: url(./DancingScript-Bold.ttf);
+    src: url(./assets/fonts/DancingScript-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Silver Age';
-    src: url(./Silver\ Age\ Queens.ttf);
+    src: url(./assets/fonts/Silver\ Age\ Queens.ttf);
 }
 
 @font-face {
     font-family: 'Impact';
-    src: url(./impact.ttf);
+    src: url(./assets/fonts/impact.ttf);
 }
 
 .heading {
