@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #152a48;
+}
+
+.login {
+    position: fixed;
+    background-color: #2c3964;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    z-index: 999;
+}
+
+.login span {    
+    color: #FFFFFF;
+    font-family: 'Impact';
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.login:hover {
+    background-color: #e8234d;
+}
+
+img {
+    position: relative;
+    top: -10px;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: Strange Tales;
+    src: url(./Strange_Tales.ttf);
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(./DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Silver Age';
+    src: url(./Silver\ Age\ Queens.ttf);
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url(./impact.ttf);
+}
+
+.heading {
+    position: absolute;
+    top: 80px;
+    transform: translateX(-100%);
+    transform: rotateZ(-8deg);
+}
+
+h1 {
+    font-family: 'Strange Tales';
+    font-size: 8.75rem;
+    color: #FFFFFF;
+    text-align: center;    
+    margin-bottom: 0;
+}
+
+h1 span {
+    color: #e8234d;
+    font-family: 'Dancing Script';
+    text-transform: lowercase;
+}
+
+h2 {
+    font-family: 'Silver Age';
+    color: #e8234d;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.heading h2:last-child {
+    color: #FFFFFF;
+    background-color: #006e74;
+    text-align: center;
+    position: relative;
+    left: 28%;
+    display: inline;
+    font-size: 2.75rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3 {
+    font-family: 'Silver Age';
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+h3 span:first-child {
+    font-family: 'Impact';
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+h3 span:last-child {
+    font-size: 1rem;
+    position: relative;
+    bottom: 30px;
+}
+
+.bottom-text {
+    position: absolute;
+    top: 550px;
+    left: 40%;
+    transform: translateX(-50%);
+    transform: rotateZ(-8deg);
+}
